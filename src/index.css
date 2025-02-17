@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+.container{
+  font-size: 2em;
+  border-color: #8e8e8e; 
+  border-width: 1rem;
+}
+
+.title{
+  width: 100%;
+  max-width: 600px;
+  background-image: linear-gradient(to top, #38383b 0%, #6e6e6e 99%, #8e8e8e 100%);
+  margin: 20px auto 20px;
+  padding: 10px 20px 10px;
+  border-radius: 10px;
+}
+
+input{
+  margin: 20px auto 20px;
+  font-size: 1.2rem;
+}
+
+ul li{
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+}
+
+.addTaskB{
+  margin: 20px auto 20px;
+  font-size: 1.2rem;
+  background-color: #167238;
+  font-weight: 500;
+}
+
+.deleteB{
+  margin-left: 1em;
+  font-size: 1.5em;
+  background-color: #ad2626;
+}
+
+.tasks{
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto 20px;
+  padding: 10px 20px 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 0.1rem;
+}
